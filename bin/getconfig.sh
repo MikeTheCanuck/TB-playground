@@ -25,9 +25,9 @@ else
     export PATH=$PATH:~/.local/bin
     aws s3 cp \
           s3://$CONFIG_BUCKET/$DEPLOY_TARGET/$CONFIG_FILE \
-          $PROJ_SETTINGS_DIR/bin/$CONFIG_FILE;
+          $PROJ_SETTINGS_DIR/$CONFIG_FILE;
     # Debugging just to make sure the file is where and how we expect it to be, at least until this script finishes
-    ls -la $PROJ_SETTINGS_DIR/bin/$CONFIG_FILE
+    ls -la $PROJ_SETTINGS_DIR/$CONFIG_FILE
 fi
 
 # Load environment variables
