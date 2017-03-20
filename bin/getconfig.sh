@@ -28,6 +28,8 @@ else
           $PROJ_SETTINGS_DIR/$CONFIG_FILE;
     # Debugging just to make sure the file is where and how we expect it to be, at least until this script finishes
     ls -la $PROJ_SETTINGS_DIR/$CONFIG_FILE
+    echo Here are all files in code...
+    ls -la /code
 fi
 
 # Load environment variables
