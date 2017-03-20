@@ -1,7 +1,8 @@
 #! /bin/bash
 
 # Declare environment file for de-duplication
-export CONFIG_FILE='env.sh'
+#export CONFIG_FILE='env.sh'
+export CONFIG_FILE='project_config.py'
 
 # Get Configuration
 echo "##############################"
@@ -30,5 +31,5 @@ else
 fi
 
 # Load environment variables
-source $PROJ_SETTINGS_DIR/bin/$CONFIG_FILE
-echo DATABASE_PORT $DATABASE_PORT
+#source $PROJ_SETTINGS_DIR/bin/$CONFIG_FILE
+#echo DATABASE_PORT $DATABASE_PORT
