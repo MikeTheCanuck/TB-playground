@@ -106,7 +106,7 @@ DATABASES = {
 #        'PORT': os.environ.get("DATABASE_PORT"),
 #        'USER': os.environ.get("DATABASE_USER"),
 #        'PASSWORD': os.environ.get("DATABASE_PASSWORD"),
-        'ENGINE': project_config.AWS["DATABASE_ENGINE"],
+        'ENGINE': project_config.AWS["ENGINE"],
         'NAME': project_config.AWS['NAME'],
         'HOST': project_config.AWS['HOST'],
         'PORT': 5432,
