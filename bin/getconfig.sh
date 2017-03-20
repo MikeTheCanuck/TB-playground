@@ -27,9 +27,11 @@ else
           s3://$CONFIG_BUCKET/$DEPLOY_TARGET/$CONFIG_FILE \
           budget_proj/$CONFIG_FILE;
     # Debugging just to make sure the file is where and how we expect it to be, at least until this script finishes
-    ls -la $PROJ_SETTINGS_DIR/$CONFIG_FILE
-    echo Here are all files in code...
+    ls -la budget_proj/$CONFIG_FILE
+    echo Here are all files in CWD...
     ls -la .
+    echo And here are all the files in budget_proj...
+    ls -la budget_proj
 fi
 
 # Load environment variables
